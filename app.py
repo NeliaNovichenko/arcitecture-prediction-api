@@ -40,5 +40,7 @@ def get_styles():
         file.save(filePath)
         result = predict(filename)
         os.remove(filePath)
+        print(result)
+        print(json.dumps(result))
         return json.dumps(result)
 
