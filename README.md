@@ -1,4 +1,4 @@
-# Arcitecture Prediction Web API 
+# Architecture Prediction Web API 
 ![N|Solid](https://avatars1.githubusercontent.com/u/6582119?s=280&v=4 ) 
 
 Architecture prediction is Web API for prediction architectural styles of buildings by images.
@@ -46,4 +46,4 @@ You can run application by running main.py file.
   - fix performance
   
 ## Contacts
-In case you have any questions please contact me via [e-mail](novichenko.nelya@gmail.com).
+In case you have any questions please contact me via  e-mail: novichenko.nelya@gmail.com.
