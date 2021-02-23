@@ -10,6 +10,11 @@ Arcitecture-recognition-api requires some dependencies to run:
 
 Install packages:
 ```sh
+.\venv\Scripts\Activate.ps1
+python -m pip install -r req.txt
+```
+or
+```sh
 $ pip install --upgrade tensorflow
 $ pip install numpy
 $ pip install scipy
