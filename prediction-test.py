@@ -4,7 +4,7 @@ import os
 execution_path = os.getcwd()
 
 prediction = CustomImagePrediction()
-prediction.setModelTypeAsResNet()
+prediction.setModelTypeAsResNet50()
 prediction.setModelPath("model.h5")
 prediction.setJsonPath("styles.json")
 prediction.loadModel(num_objects=25)

@@ -44,3 +44,7 @@ def get_styles():
         print(json.dumps(result))
         return json.dumps(result)
 
+@app.route('/api/health', methods=['GET'])
+def get_healthy():
+        return 'OK'
+
