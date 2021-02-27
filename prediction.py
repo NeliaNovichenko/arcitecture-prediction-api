@@ -21,7 +21,7 @@ def predict(filename):
 
     model = getModel()
    
-    predictions, probabilities = model.predictImage(filename, result_count=3)
+    predictions, probabilities = model.classifyImage(filename, result_count=3)
     result = collections.defaultdict()
     for eachPrediction, eachProbability in zip(predictions, probabilities):
         result[eachPrediction] = eachProbability
